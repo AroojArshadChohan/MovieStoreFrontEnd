@@ -1,0 +1,101 @@
+body{
+    background-color: black;
+}
+
+.footer-container
+{
+    background-color: black;
+    
+    text-transform: capitalize;
+    text-align: center;
+    min-height: 10vh;
+    
+    align-items: center;
+    
+}
+
+nav li
+{
+    display: inline-block;
+    padding:36px 32px;
+    
+}
+nav a
+{
+    
+    color:rgb(211, 140, 9)!important;
+}
+
+.content-container
+{
+    background-color: black;
+    
+    text-transform: capitalize;
+    text-align: center;
+    min-height: 10vh;
+    width:"700" !important;
+    
+    align-items: center;
+}
+
+.main
+{
+    background-color:"white";
+}
+
+
+
+#movie-description-section > div
+{
+    margin-top:16px;
+}
+
+.movie-description-section > img
+{
+    grid-column: 1;
+    width:auto;
+
+}
+
+.movie-description-content-area
+{
+    grid-column: 2/span 3;
+    color:rgb(240, 99, 6);
+   
+}
+
+
+h6.errorfield
+{
+    color: red;
+    
+}
+
+
+
+.EmployeeLogout{
+    height: 30px;
+    text-align: right;
+    right: 40px;
+    position: fixed;
+  }
+  
+  
+  
+  
+  /**User PAGE*/
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 60%;
+    padding-top: 3%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height:500px;
+    text-align: center;
+    font-family: arial;
+    background: rgb(240, 240, 240);
+    background: linear-gradient(175deg, rgba(240,240,240,1) 17%, rgb(202, 224, 250) 56%);
+  
+  }
+  
